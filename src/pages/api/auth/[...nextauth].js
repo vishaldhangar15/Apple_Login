@@ -7,8 +7,8 @@ import InstagramProvider from "next-auth/providers/instagram";
 export default NextAuth({
     providers: [
         GoogleProvider({
-            clientId: process.env.GOOGLE_CLIENT_ID,
-            clientSecret: process.env.GOOGLE_CLIENT_SECRET
+            clientId: "506971020877-eka4q32l89r1u3qeif4mcvnkkdfmnjms.apps.googleusercontent.com",
+            clientSecret: "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"
         }),
         InstagramProvider({
             clientId: "705322318012564",
